@@ -7,4 +7,4 @@ rock_vizkit_plugin(vizkit_3d_octomap-viz
     DEPS_PKGCONFIG eigen3 base-types)
 
 install(FILES Octomap.vert Octomap.frag DESTINATION share/vizkit3d_octomap)
-install(FILES octomap_display_file DESTINATION bin)
+install(PROGRAMS octomap_display_file DESTINATION bin)
